@@ -1,0 +1,122 @@
+/*variable*/
+:root{
+--DarkBlue: #163A6A ;
+--green: #163A6A;
+--lightgreen:#EAF7EE ;
+--gray:#EAF7EE ;
+--white: #FFFFFF;
+--footer: #0B2A4A ;
+--DarkText: #333333 ;
+--border:#D9E1E6 ;
+}
+*{
+   box-sizing: border-box;
+}
+
+body {
+   line-height: 1.6;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 50px;
+   margin-bottom: 20px;
+   background-color: var(--white);
+   border: 3px ;
+   padding: 10px;
+}
+.logo{
+ padding: 5px;
+ height: 50px;
+}
+
+.nav{
+   display: flex;
+   gap: 40px;
+   list-style: none;
+}
+
+.nav a{
+   padding: 5px;
+   color: var(--DarkBlue);
+   text-decoration: none;
+   color: var(--DarkBlue);
+}
+
+.nav a:hover{
+   background-color: white;
+   color:darkgreen;
+   border-bottom:3px solid ;
+}
+
+.book-button{
+   padding: 2px;
+   margin:0 auto;
+   border: 2px green solid;
+   border-radius: 5px;
+   text-decoration: none;
+   background-color: green;
+   color: var(--white);
+   font-weight: lighter;
+   font-weight: 10px;
+}
+
+.book-button:hover{
+   background-color: ;
+}
+
+.hero{
+   display: flex;
+   justify-content: center;
+   background-color: var(--gray);
+   align-items: center;
+}
+body{
+   width: 90%;
+   max-width: 1300px;
+   margin: 0 auto;
+}
+
+.hero-text{
+   max-width: 800px;
+   padding: 30px;
+   min-height: 320px;
+
+}
+
+.hero-text h1{
+   margin: 15px 0;
+   color: var(--DarkBlue);
+   font-size: 40px;
+}
+
+.hero-text p{
+   text-align: left;
+}
+
+.main-button{
+   background-color: green;
+   border: green solid 3px;
+   border-radius: 5px;
+   text-decoration: none;
+   color: var(--white);
+   width: 300px;
+   padding: 10px;
+}
+
+.hero-image{
+   margin: 0;
+}
+
+.services{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+
+
